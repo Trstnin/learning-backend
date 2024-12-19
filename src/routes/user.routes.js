@@ -1,7 +1,6 @@
 import {Router} from "express"
 import { registerUser } from "../controllers/user.controller.js";
 import { upload } from "../middlewares/multer.middlewares.js";
-import {uploadOnCloudinary } from "../utils/cloudinary.js"
 
 const router = Router();
 
